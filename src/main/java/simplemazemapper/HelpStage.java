@@ -31,8 +31,8 @@ class HelpStage {
         Text yellowText = new Text("Yellow marks explored blocks that you added a note to (example: button).");
         Label khaki = new Label("Khaki (the lighter shade of yellow)");
         Text khakiText = new Text("Khaki marks unexplored blocks that you added a note to.");
-        Label red = new Label("Red");
-        Text redText = new Text("Red marks blocks that you added by mistake.");
+        Label white = new Label("White");
+        Text whiteText = new Text("White (inside black squares) marks blocks that you added by mistake.");
         Label controls = new Label("Controls:");
         Text controlsText = new Text("Upon starting the program, add the coordinates of the start block in the text fields " +
                 "below, the press Confirm. The block will appear in the middle of the window. \n\n" +
@@ -50,7 +50,7 @@ class HelpStage {
                 "Finally, remove notes lets you remove notes added by mistake with a click.");
 
         content.getChildren().addAll(controls, controlsText, colours, green, greenText, royalBlue, royalBlueText,
-                skyBlue, skyBlueText, yellow, yellowText, khaki, khakiText, red, redText);
+                skyBlue, skyBlueText, yellow, yellowText, khaki, khakiText, white, whiteText);
         scrollPane.setContent(content);
         scrollPane.setFitToWidth(true);
         scrollPane.setFitToHeight(true);
@@ -64,7 +64,7 @@ class HelpStage {
         skyBlue.getStyleClass().addAll("help", "help-colour-label");
         yellow.getStyleClass().addAll("help", "help-colour-label");
         khaki.getStyleClass().addAll("help", "help-colour-label");
-        red.getStyleClass().addAll("help", "help-colour-label");
+        white.getStyleClass().addAll("help", "help-colour-label");
         controlsText.getStyleClass().add("help");
         green.setId("green");
         greenText.getStyleClass().add("help");
@@ -76,8 +76,8 @@ class HelpStage {
         yellowText.getStyleClass().add("help");
         khaki.setId("khaki");
         khakiText.getStyleClass().add("help");
-        red.setId("red");
-        redText.getStyleClass().add("help");
+        white.setId("white");
+        whiteText.getStyleClass().add("help");
         scene.getStylesheets().add("main/resources/stilizare.css");
 
         primaryStage.setTitle("Help");

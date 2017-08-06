@@ -364,7 +364,7 @@ public class SimpleMazeMapper extends Application {
                 break;
             }
             case GRESEALA: {
-                context.setFill(Color.RED);
+                context.setFill(Color.WHITE);
                 break;
             }
         }
