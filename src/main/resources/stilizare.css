@@ -1,0 +1,44 @@
+.bottom
+{
+    -fx-background-color: aliceblue;
+    -fx-alignment: center;
+}
+.help
+{
+    -fx-font-weight: bold;
+}
+.help-big-label
+{
+    -fx-font-size: 30px;
+}
+.help-colour-label
+{
+    -fx-font-size: 25px;
+}
+.help-text {
+    -fx-font-size: 20px;
+}
+#green
+{
+    -fx-text-fill: green;
+}
+#royal-blue
+{
+    -fx-text-fill: royalblue;
+}
+#sky-blue
+{
+    -fx-text-fill: skyblue;
+}
+#yellow
+{
+    -fx-text-fill: yellow;
+}
+#khaki
+{
+    -fx-text-fill: khaki;
+}
+#red
+{
+    -fx-text-fill: red;
+}
